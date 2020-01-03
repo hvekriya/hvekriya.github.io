@@ -1,4 +1,4 @@
-# Bal Krishna Nursery by Woolwich Temple
+# Personal Website
 
 ## How to launch this project in your local environment
 
