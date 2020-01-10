@@ -19,8 +19,8 @@
     </section>
 
     <LatestProjects />
-    <BlogPosts />
-    <DribblePosts />
+    <!-- <BlogPosts /> -->
+    <!-- <DribblePosts /> -->
     <MediumClaps />
     <Tools />
   </main>
