@@ -6,7 +6,7 @@
     >
       <div class="overlay"></div>
       <div class="container animated pulse pulse">
-        <h1 class="display-3 animated slideInDown heading--stroke-shadow">{{project.title[0].text}}</h1>
+        <h1 class="display-3 animated zoomIn heading--stroke-shadow">{{project.title[0].text}}</h1>
         <!-- <p>
           <a href="/" class="btn m-2">
             <span class="fas fa-arrow-alt-circle-left"></span> Back to projects

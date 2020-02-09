@@ -5,9 +5,7 @@
       v-bind:style="{ backgroundImage: 'url(' + this.cover.url + ')' }"
     >
       <div class="container animated pulse pulse">
-        <h1
-          class="home-heading display-3 animated slideInDown heading--stroke-shadow"
-        >Haresh Vekriya</h1>
+        <h1 class="home-heading display-3 animated zoomIn heading--stroke-shadow">Haresh Vekriya</h1>
 
         <p class="lead">UX/UI Designer</p>
         <p>
