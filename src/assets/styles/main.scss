@@ -10,41 +10,51 @@
 @import "./sass_modules/nav";
 @import "./sass_modules/card";
 @import "./sass_modules/dribble";
-
+@import "./sass_modules/typography";
 .jumbotron {
-  border-radius: 0;
+    border-radius: 0;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 10rem 2rem;
+    }
 }
 
 .navbar-dark .navbar-toggler {
-  color: white;
-  border: none;
+    color: white;
+    border: none;
 }
 
 .bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
+    font-size: 1.125rem;
+    text-anchor: middle;
 }
 
 @media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
 }
 
 .shadow-sm {
-  box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 .card {
-  border: none;
+    border: none;
 }
 
 .card-body {
-  padding-right: 0;
-  padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .block-img img {
-  // Allows the prismic image to use bootstrap reponsive class
-  max-width: 100%;
+    // Allows the prismic image to use bootstrap reponsive class
+    max-width: 100%;
+}
+
+.featured {
+    color: white;
 }

@@ -6,14 +6,12 @@
     >
       <div class="overlay"></div>
       <div class="container animated pulse pulse">
-        <h1 class="jumbotron-heading">
-          <prismic-rich-text :field="project.title" />
-        </h1>
-        <p>
+        <h1 class="display-3 animated slideInDown heading--stroke-shadow">{{project.title[0].text}}</h1>
+        <!-- <p>
           <a href="/" class="btn m-2">
             <span class="fas fa-arrow-alt-circle-left"></span> Back to projects
           </a>
-        </p>
+        </p>-->
       </div>
     </section>
 
@@ -42,7 +40,10 @@
         <br />
       </div>
     </div>
-    <div class="container-fluid">
+    <div
+      class="container-fluid bg-light"
+      v-bind:style="{ backgroundImage: 'url(' + this.cover.url + ')' }"
+    >
       <div class="featured">
         <h4>You may also like</h4>
         <br />
@@ -67,7 +68,11 @@ export default {
   },
   data() {
     return {
-      project: ""
+      project: "",
+      cover: {
+        url:
+          "https://images.unsplash.com/photo-1580581764285-5b9567a3649e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&auto=format&fit=crop&w=2250&q=80"
+      }
     };
   },
   methods: {

@@ -13,13 +13,7 @@
         <p class="float-right">
           <a href="#">Back to top</a>
         </p>
-        <p>
-          Developed using Vue.js, Prismic.io and Bootstrap by Haresh Vekriya
-          <!-- <script>
-            var CurrentYear = new Date().getFullYear();
-            document.write(CurrentYear);
-          </script>-->
-        </p>
+        <p>Designed with ❤️ by Haresh Vekriya © {{ new Date().getFullYear() }}</p>
       </div>
     </footer>
   </div>

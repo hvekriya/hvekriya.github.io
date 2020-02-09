@@ -9,7 +9,7 @@
         <p class="lead">UX Designer/Front-End Developer</p>
         <p>
           <a href="/" class="btn m-2">
-            <span class="fas fa-arrow-alt-circle-left"></span> Back to projects
+            <span class="fas fa-arrow-alt-circle-left"></span> Back
           </a>
         </p>
       </div>
@@ -25,20 +25,20 @@
                 <li v-for="(item, index) in slice.items" :key="'photo-' + index">
                   <span></span>
                   <div>
-                    <prismic-rich-text :field="item.job_title"/>
+                    <prismic-rich-text :field="item.job_title" />
                   </div>
                   <div>
-                    <prismic-rich-text :field="item.company"/>
+                    <prismic-rich-text :field="item.company" />
                   </div>
                   <div>
-                    <prismic-rich-text :field="item.job_description"/>
+                    <prismic-rich-text :field="item.job_description" />
                   </div>
                   <div class="year">
                     <span>
-                      <prismic-rich-text :field="item.end_date"/>
+                      <prismic-rich-text :field="item.end_date" />
                     </span>
                     <span>
-                      <prismic-rich-text :field="item.start_date"/>
+                      <prismic-rich-text :field="item.start_date" />
                     </span>
                   </div>
                 </li>
