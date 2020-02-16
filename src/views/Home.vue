@@ -9,10 +9,10 @@
 
         <p class="lead">UX/UI Designer</p>
         <p>
-          <a href="/experience" class="btn m-2">Experience</a>
+          <a href="/experience" class="btn btn-outline-primary m-2">Experience</a>
           <a
             href="https://drive.google.com/file/d/1yqg2e0DIoe9NPoNETT-d9vmuRfEaGR5O/view?usp=sharing"
-            class="btn m-2"
+            class="btn btn-outline-primary m-2"
             target="_blank"
           >Download CV</a>
         </p>
@@ -20,6 +20,22 @@
     </section>
 
     <LatestProjects />
+    <div class="container">
+      <div class="bd-callout bd-callout-info mb-5">
+        <p>
+          If you want to see more examples of my UI skills then please visit my profile on Dribble or Behance.
+          <br />
+          <a href="https://dribbble.com/hvekriya" class="mr-4">
+            <i class="fab fa-dribbble text-primary mr-1"></i>
+            Dribble
+          </a>
+          <a href="https://www.behance.net/skyhighdesign">
+            <i class="fab fa-behance-square text-primary mr-1"></i>
+            Behance
+          </a>
+        </p>
+      </div>
+    </div>
     <!-- <BlogPosts /> -->
     <!-- <DribblePosts /> -->
     <MediumClaps />

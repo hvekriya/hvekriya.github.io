@@ -7,13 +7,13 @@
       <div class="overlay"></div>
       <div class="container animated pulse pulse">
         <h1 class="jumbotron-heading">
-          <prismic-rich-text :field="article.title"/>
+          <prismic-rich-text :field="article.title" />
         </h1>
         <center>
           <p class="text-white">Posted on {{ article.first_publication_date | formatDate() }}</p>
         </center>
         <p>
-          <a href="/" class="btn m-2">
+          <a href="/" class="btn btn-secondary m-2">
             <span class="fas fa-arrow-alt-circle-left"></span> Back to projects
           </a>
         </p>
@@ -23,9 +23,9 @@
     <div class="album">
       <div class="container">
         <h2>
-          <prismic-rich-text :field="article.title"/>
+          <prismic-rich-text :field="article.title" />
         </h2>
-        <prismic-rich-text :field="article.content"/>
+        <prismic-rich-text :field="article.content" />
       </div>
     </div>
   </main>

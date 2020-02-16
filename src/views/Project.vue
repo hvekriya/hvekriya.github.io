@@ -48,8 +48,8 @@
         <h4>You may also like</h4>
         <br />
         <YouMayAlsoLike :fields="project.body" />
-        <center>
-          <a href="/" class="btn m-2">
+        <center v-if="project.body[0].items.length >= 3">
+          <a href="/" class="btn btn-secondary m-2">
             <span class="fas fa-arrow-alt-circle-left"></span> Back to projects
           </a>
         </center>

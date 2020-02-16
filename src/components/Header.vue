@@ -14,42 +14,56 @@
               to work well on own initiative and can demonstrate the high
               levels of motivation required to meet the tightest of deadlines.
               Even under significant pressure, I have a strong ability to
-              perform effectively. 
-              <br> <br>
-              During my spare time I like to learn new skills
-              and develop my existing skills. I am also a lead volunteer at local temple
-              and help with community events by designing promotional material and maintaining their online presence.
+              perform effectively.
+              <br />
+              <br />During my spare time I like to learn new skills
+              and develop my existing skills. I also help local businesses with their online presence by creating websites or designing graphics.
             </p>
           </div>
           <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
+            <h4 class="text-white">
+              Contact me
+              <span class="wave">👋</span>
+            </h4>
             <ul class="list-unstyled">
-              <li>
-                <a href="tel:+447412899041" class="text-white">07412899041</a>
+              <li class="mb-2">
+                <a href="tel:+447412899041" class="text-muted">
+                  <i class="fas fa-mobile text-white mr-1"></i>
+                  07412899041
+                </a>
               </li>
-              <li>
-                <a
-                  href="mailto:haresh.vekriya@gmail.com"
-                  class="text-white"
-                >haresh.vekriya@gmail.com</a>
+              <li class="mb-2">
+                <a href="mailto:haresh.vekriya@gmail.com" class="text-muted">
+                  <i class="fas fa-envelope text-white mr-1"></i>
+                  haresh.vekriya@gmail.com
+                </a>
               </li>
-              <li>
-                <a href="https://github.com/hvekriya" class="text-white">Github</a>
+              <li class="mb-2">
+                <a href="https://github.com/hvekriya" class="text-muted">
+                  <i class="fab fa-github text-white mr-1"></i>
+                  Github
+                </a>
               </li>
-              <li>
-                <a href="https://www.linkedin.com/in/hareshvekriya/" class="text-white">LinkedIn</a>
+              <li class="mb-2">
+                <a href="https://www.linkedin.com/in/hareshvekriya/" class="text-muted">
+                  <i class="fab fa-linkedin text-white mr-1"></i>
+                  LinkedIn
+                </a>
               </li>
-              <li>
-                <a href="https://www.behance.net/skyhighdesign" class="text-white">Behance</a>
+              <li class="mb-2">
+                <a href="https://www.behance.net/skyhighdesign" class="text-muted">
+                  <i class="fab fa-behance-square text-white mr-1"></i>
+                  Behance
+                </a>
               </li>
-              <li>
-                <a href="https://dribbble.com/hvekriya" class="text-white">Dribble</a>
+              <li class="mb-2">
+                <a href="https://dribbble.com/hvekriya" class="text-muted">
+                  <i class="fab fa-dribbble text-white mr-1"></i>
+                  Dribble
+                </a>
               </li>
-              <li style="width: 20px; height:20px;">
-                <span class="wave">👋</span>
-              </li>
-              <li>
-                <input type="checkbox" id="theme-toggle" v-model="nightMode">
+              <li class="mb-2">
+                <input type="checkbox" id="theme-toggle" v-model="nightMode" />
                 <label for="theme-toggle">
                   <span></span>
                 </label>

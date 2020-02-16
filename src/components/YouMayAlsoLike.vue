@@ -26,6 +26,11 @@
         </div>
       </template>
     </template>
+    <div class="col-md-4" v-if="fields[0].items.length < 3">
+      <a href="/" class="btn btn-secondary m-2 center">
+        <span class="fas fa-arrow-alt-circle-left"></span> Back to projects
+      </a>
+    </div>
   </div>
 </template>
 
