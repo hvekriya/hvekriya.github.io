@@ -21,7 +21,7 @@
                 :value="tag.value"
                 v-model="tag.checked"
                 v-on:change="getfilteredData"
-              >
+              />
               <label :for="`checkbox-${index}`">{{tag.value}}</label>
             </li>
           </ul>
@@ -46,7 +46,7 @@
                 class="bd-placeholder-img card-img-top"
                 :src="item.data.cover.url"
                 :alt="item.data.cover.alt"
-              >
+              />
               <div class="card-body">
                 <h5 class="card-title">{{ title.text }}</h5>
                 <p class="card-text">{{ item.data.challenge | readMore(200, ' ...') }}</p>
@@ -79,7 +79,7 @@ export default {
       posts: null,
       cover: {
         url:
-          "https://images.unsplash.com/flagged/photo-1551301622-6fa51afe75a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+          "https://images.unsplash.com/photo-1580581764285-5b9567a3649e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&auto=format&fit=crop&w=2250&q=80"
       },
       tags: []
     };

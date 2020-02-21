@@ -3,7 +3,7 @@
     <div class="container">
       <p class="h2 pb-4">Tools I use 🔨</p>
       <div class="row">
-        <div class="animated pulse bounce">
+        <div class="animated pulse bounce ml-2">
           <img class="img-fluid p-2" src="/img/xd.png" width="10%" alt="Adobe XD" />
           <img class="img-fluid p-2" src="/img/sketch.png" width="10%" alt="Sketch" />
           <img class="img-fluid p-2" src="/img/figma.png" width="10%" alt="Figma" />

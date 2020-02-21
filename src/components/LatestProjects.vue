@@ -30,7 +30,7 @@
         >
           <a :href="'/project/' + item.uid">
             <div
-              class="card mb-4 shadow p-3 mb-5 bg-white rounded"
+              class="card mb-4 shadow p-3 mb-5 rounded"
               v-for="(title, index) in item.data.title"
               :key="'project-' + index"
             >

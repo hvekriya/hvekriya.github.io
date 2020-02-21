@@ -8,7 +8,7 @@
         <h1 class="jumbotron-heading">Haresh Vekriya</h1>
         <p class="lead">UX Designer/Front-End Developer</p>
         <p>
-          <a href="/" class="btn m-2">
+          <a href="/" class="btn btn-secondary m-2">
             <span class="fas fa-arrow-alt-circle-left"></span> Back
           </a>
         </p>
@@ -59,7 +59,7 @@ export default {
       projects: null,
       cover: {
         url:
-          "https://images.unsplash.com/flagged/photo-1551301622-6fa51afe75a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+          "https://images.unsplash.com/photo-1580581764285-5b9567a3649e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&auto=format&fit=crop&w=2250&q=80"
       },
       fields: {
         title: null,
