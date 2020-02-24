@@ -4,10 +4,10 @@
       class="jumbotron text-center text-white"
       v-bind:style="{ backgroundImage: 'url(' + this.cover.url + ')' }"
     >
-      <div class="container animated pulse pulse">
-        <h1 class="home-heading display-3 animated zoomIn heading--stroke-shadow">Haresh Vekriya</h1>
+      <div class="container">
+        <h1 class="home-heading display-3 animated fadeInUp heading--stroke-shadow">Haresh Vekriya</h1>
 
-        <p class="lead">UX/UI Designer</p>
+        <p class="lead animated fadeInUp">UX/UI Designer</p>
         <p>
           <a href="/experience" class="btn btn-outline-primary m-2">Experience</a>
           <a
@@ -74,16 +74,16 @@ export default {
 section {
   background-size: cover;
 }
-.home-heading {
-  color: white;
-  font-family: "Great Vibes", cursive;
-  font-size: 80px;
-  line-height: 100px;
-  font-weight: normal;
-  margin-bottom: 0px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  text-align: center;
-  text-shadow: 0 1px 1px #fff;
-}
+// .home-heading {
+//   color: white;
+//   font-family: "Great Vibes", cursive;
+//   font-size: 80px;
+//   line-height: 100px;
+//   font-weight: normal;
+//   margin-bottom: 0px;
+//   margin-top: 40px;
+//   margin-bottom: 20px;
+//   text-align: center;
+//   text-shadow: 0 1px 1px #fff;
+// }
 </style>

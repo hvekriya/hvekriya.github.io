@@ -24,10 +24,14 @@ body {
             color: $white;
         }
         .card {
-            color: $white;
+            color: $gray-800;
             &.bg-white {
                 background-color: $gray-700 !important;
             }
+        }
+        .bd-callout {
+            border: 1px solid $gray-800;
+            box-shadow: inset 0 0 15px rgba(0, 0, 0, 0), inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(0, 0, 0, 0.15), -7px -7px 20px #2b2b2b, inset 0px 0px 4px rgba(255, 255, 255, 0.2)
         }
         .filter-pannel ul li label {
             background-color: transparent;

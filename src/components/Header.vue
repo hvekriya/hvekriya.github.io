@@ -76,7 +76,12 @@
     <div class="navbar navbar-dark bg-dark shadow-sm">
       <div class="container d-flex justify-content-between">
         <a href="/" class="navbar-brand d-flex align-items-center">
-          <strong>Haresh Vekriya</strong>
+          <img
+            src="/img/logo.svg"
+            class="logo img-fluid animated fadeInLeft"
+            alt="Haresh Vekriya Logo"
+            onerror="this.onerror=null; this.src='/img/logo.png'"
+          />
         </a>
         <button
           class="hamburger hamburger--arrowturn navbar-toggler"
