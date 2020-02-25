@@ -1,23 +1,13 @@
 <template>
   <main role="main">
-    <section
-      class="jumbotron text-center text-white"
-      v-bind:style="{ backgroundImage: 'url(' + this.cover.url + ')' }"
-    >
-      <div class="container animated pulse pulse">
-        <h1 class="jumbotron-heading">Login</h1>
-        <p class="lead">To see protected projects.</p>
-        <p>
-          <a href="/" class="btn m-2">
-            <span class="fas fa-arrow-alt-circle-left"></span> Back to home
-          </a>
-        </p>
-      </div>
-    </section>
     <div class="container">
       <center>
         <form class="form-signin col-6" @submit.prevent="checkForm">
           <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
+          <p class="text-muted">
+            This project is password protected. Please get in touch with me if you'd like to know more.
+            <br />Or enter password if you have one 😄
+          </p>
           <label for="inputPassword" class="sr-only">Password</label>
           <input
             type="password"
@@ -32,6 +22,9 @@
           </div>
           <br />
           <input class="btn btn-primary btn-block" type="submit" value="Submit" />
+          <p>
+            <a href="/" class="btn btn-secondary btn-block mt-3">Cancel</a>
+          </p>
         </form>
       </center>
     </div>
